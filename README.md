@@ -4,7 +4,8 @@
 
 ## Technologies
 
-- **Recat.js** [React](/public/icons/react.svg)
-- **TypeScript** [TypeScript](/public/icons/typescript.svg)
-- **Tailwindcss** [Tailwindcss](/public/icons/tailwindcss.svg)
+- **Recat.js**
+- **TypeScript**
+- **Tailwindcss**
 - **Context-API**
+- **Framer-Motion**
