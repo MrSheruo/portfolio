@@ -6,6 +6,7 @@ import ExperienceSection from "./layout/ExperienceSection";
 import Projects from "./layout/Projects";
 import Services from "./layout/Services";
 import ContactMe from "./layout/ContactMe";
+import Skills from "./layout/Skills";
 export default function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ export default function App() {
       <main className="flex flex-col gap-16">
         <IntroSection />
         <AboutMeSection />
+        <Skills />
         <Services />
         <Projects />
         <ExperienceSection />

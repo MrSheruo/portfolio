@@ -1,6 +1,5 @@
 import SectionHeader from "../components/SectionHeader";
 import { motion } from "framer-motion";
-import { skillsData } from "../lib/consts";
 
 export default function AboutMeSection() {
   return (
@@ -56,26 +55,4 @@ export default function AboutMeSection() {
       </div>
     </section>
   );
-}
-
-{
-  /* <div className="flex flex-col items-center gap-4 mt-4">
-  <h3 className="text-xl font-semibold mb-2 mt-4">Tech Stack</h3>
-  <div className="flex gap-4 max-w-52 flex-wrap justify-center items-center">
-    {skillsData.map((item) => {
-      return (
-        <img
-          src={item.icon}
-          key={item.id}
-          alt={item.name}
-          title={item.name}
-          width={45}
-          height={45}
-          draggable="false"
-          className={`cursor-pointer hover:scale-[1.1] transition-transform`}
-        />
-      );
-    })}
-  </div>
-</div>; */
 }
