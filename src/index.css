@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 15, 29%, 97%;
+    --foreground: 0, 1%, 18%;
+
+    --primary: 0, 0%, 98%;
+    --primary-foreground: 0, 0%, 13%;
+
+    --secondary: 0, 0%, 13%;
+    --secondary-foreground: 0, 0%, 98%;
+
+    --success: 137, 48%, 53%;
+    --success-hover: 137, 67%, 61%;
+
+    --destructive: 1, 77%, 58%;
+    --destructive-hover: 1, 76%, 69%;
+
+    --teal: 188, 84%, 48%;
+    --teal-hover: 188, 77%, 58%;
+
+    --warning: 35, 99%, 59%;
+    --warning-hover: 42, 94%, 68%;
+  }
+  .dark {
+    --background: 0, 1%, 18%;
+    --foreground: 15, 29%, 97%;
+
+    --primary: 0, 0%, 13%;
+    --primary-foreground: 0, 0%, 98%;
+
+    --secondary: 0, 0%, 98%;
+    --secondary-foreground: 0, 0%, 13%;
+
+    --success: 137, 48%, 53%;
+    --success-hover: 137, 67%, 61%;
+
+    --destructive: 1, 77%, 58%;
+    --destructive-hover: 1, 76%, 69%;
+
+    --teal: 188, 84%, 48%;
+    --teal-hover: 188, 77%, 58%;
+
+    --warning: 35, 99%, 59%;
+    --warning-hover: 42, 94%, 68%;
+  }
+}
+
+@layer components {
+  .mainSections {
+    @apply max-w-7xl mx-auto scroll-mt-32 my-32;
+  }
+}
