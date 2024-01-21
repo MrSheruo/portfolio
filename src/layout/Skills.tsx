@@ -2,7 +2,7 @@ import { skillsData } from "../lib/consts";
 import Marquee from "react-fast-marquee";
 export default function Skills() {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center overflow-hidden">
       <Marquee className="flex p-4 max-w-7xl">
         {skillsData.map((item) => (
           <img

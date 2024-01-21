@@ -36,7 +36,7 @@ const servicesDetails = [
 
 export default function Services() {
   return (
-    <section id="services" className="mainSections p-4 relative">
+    <section id="services" className="mainSections p-4 relative ">
       {/* bg-colors */}
       <div className="absolute top-1/2 -translate-y-1/2 w-1/2 h-full rounded-l-full -z-10 left-0 opacity-20 blur-3xl bg-red-400 "></div>
       <div className="absolute top-1/2 -translate-y-1/2 w-1/2 h-full rounded-r-full -z-10 right-0 opacity-20 blur-3xl bg-indigo-500 "></div>

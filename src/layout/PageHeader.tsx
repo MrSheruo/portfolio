@@ -56,6 +56,8 @@ export default function PageHeader() {
       </header>
       <Button
         size={"icon"}
+        type="button"
+        title="Toggle theme"
         className="fixed bottom-8 right-8 z-50 hidden md:flex"
         onClick={toggleTheme}
       >

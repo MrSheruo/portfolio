@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function AboutMeSection() {
   return (
-    <section id="about" className="mainSections relative">
+    <section id="about" className="mainSections relative p-4 ">
       <div className="w-96 h-96 rounded-full bg-warning-hover blur-3xl opacity-70 absolute sm:top-1/3  top-1/2 right-20 sm:left-1/3 -z-30"></div>
       <div className="w-72 h-72 rounded-full bg-destructive blur-3xl opacity-40 absolute top-20 left-20 -z-30"></div>
       <SectionHeader title="About me" />

@@ -9,8 +9,7 @@ export default function IntroSection() {
     " w-96 h-96 mt-12  opacity-30 blur-3xl  absolute top-1/3 left-1/3 translate-y-[-50%] -z-30";
   return (
     <>
-      {/* <div className=" h-[100vh]  bg-secondary absolute inset-0 -z-50"></div> */}
-      <section id="home" className="mainSections p-8 relative">
+      <section id="home" className="mainSections p-8 relative ">
         {/* bg-blend-multiply */}
         <div
           className={"rounded-br-lg bg-warning translate-x-[-50%]" + colors}
@@ -19,7 +18,7 @@ export default function IntroSection() {
           className={"rounded-bl-lg bg-destructive translate-x-[50%]" + colors}
         ></div>
         {/* bg-blend-multiply */}
-        <div className="flex flex-col md:flex-row gap-6 self-center md:mt-28">
+        <div className="flex flex-col md:flex-row gap-6 self-center md:mt-28 overflow-hidden">
           <div className="text-center">
             {/* Text */}
             <h1 className="sm:text-6xl text-4xl font-bold mb-4 ">

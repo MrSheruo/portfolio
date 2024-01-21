@@ -32,6 +32,9 @@ export default {
         },
       },
       colors: {
+        form: {
+          text: "hsla(var(--form-text))",
+        },
         background: {
           DEFAULT: "hsla(var(--background))",
           foreground: "hsla(var(--foreground))",

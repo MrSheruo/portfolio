@@ -54,7 +54,7 @@ export default function ContactMe() {
             <label htmlFor="name">Name:</label>
             <input
               required
-              className=" w-[40ch] px-2 py-1 h-8 rounded-lg  border border-secondary-hover border-opacity-50 text-secondary"
+              className=" text-form-text w-[40ch] px-2 py-1 h-8 rounded-lg  border border-secondary-hover border-opacity-50"
               type="text"
               name="name"
               id="name"
@@ -69,7 +69,7 @@ export default function ContactMe() {
             </label>
             <input
               required
-              className=" w-[40ch] px-2 py-1 h-8 rounded-lg  border border-secondary-hover border-opacity-50 text-secondary"
+              className=" text-form-text w-[40ch] px-2 py-1 h-8 rounded-lg  border border-secondary-hover border-opacity-50"
               type="number"
               name="phone"
               id="phone"
@@ -80,7 +80,7 @@ export default function ContactMe() {
             <label htmlFor="email">Email:</label>
             <input
               required
-              className=" w-[40ch] px-2 py-1 h-8 rounded-lg  border border-secondary-hover border-opacity-50 text-secondary"
+              className=" text-form-text w-[40ch] px-2 py-1 h-8 rounded-lg  border border-secondary-hover border-opacity-50"
               type="email"
               name="email"
               id="email"
@@ -94,7 +94,7 @@ export default function ContactMe() {
               name="message"
               id="message"
               placeholder="Your Message here"
-              className=" h-32 rounded-lg px-2 py-1 max-w-[40ch] border border-secondary-hover border-opacity-50 text-secondary"
+              className=" text-form-text h-32 rounded-lg px-2 py-1 max-w-[40ch] border border-secondary-hover border-opacity-50"
             ></textarea>
           </div>
           {/* Buttons */}

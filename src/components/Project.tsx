@@ -23,7 +23,7 @@ export default function Project({
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 1, ease: "linear" }}
-      className=" max-w-[25rem] h-full m-auto bg-white flex flex-col rounded-2xl shadow-lg overflow-hidden hover:border-b-8 transition-all border-secondary"
+      className=" max-w-[25rem] h-full m-auto bg-white flex flex-col rounded-2xl shadow-lg hover:border-b-8 transition-all border-secondary"
     >
       <img
         alt={title}
